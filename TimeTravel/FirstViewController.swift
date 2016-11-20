@@ -10,6 +10,12 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet var label1: UILabel!    
+    @IBOutlet var label2: UILabel!
+    @IBOutlet var label3: UILabel!
+    @IBOutlet var label4: UILabel!
+    @IBOutlet var timeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

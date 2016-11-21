@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1B8FCA1DE27362008F1AFE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B8FC51DE27362008F1AFE /* OFL.txt */; };
+		4E1B8FCB1DE27362008F1AFE /* PT_Sans-Web-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B8FC61DE27362008F1AFE /* PT_Sans-Web-Bold.ttf */; };
+		4E1B8FCC1DE27362008F1AFE /* PT_Sans-Web-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B8FC71DE27362008F1AFE /* PT_Sans-Web-BoldItalic.ttf */; };
+		4E1B8FCD1DE27362008F1AFE /* PT_Sans-Web-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B8FC81DE27362008F1AFE /* PT_Sans-Web-Italic.ttf */; };
+		4E1B8FCE1DE27362008F1AFE /* PT_Sans-Web-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B8FC91DE27362008F1AFE /* PT_Sans-Web-Regular.ttf */; };
 		4E4531E31DE24AC4006DAAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4531E21DE24AC4006DAAAB /* AppDelegate.swift */; };
 		4E4531E51DE24AC4006DAAAB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4531E41DE24AC4006DAAAB /* FirstViewController.swift */; };
 		4E4531E71DE24AC4006DAAAB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4531E61DE24AC4006DAAAB /* SecondViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1B8FC51DE27362008F1AFE /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4E1B8FC61DE27362008F1AFE /* PT_Sans-Web-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-Bold.ttf"; sourceTree = "<group>"; };
+		4E1B8FC71DE27362008F1AFE /* PT_Sans-Web-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4E1B8FC81DE27362008F1AFE /* PT_Sans-Web-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-Italic.ttf"; sourceTree = "<group>"; };
+		4E1B8FC91DE27362008F1AFE /* PT_Sans-Web-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-Regular.ttf"; sourceTree = "<group>"; };
 		4E4531DF1DE24AC4006DAAAB /* TimeTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4531E21DE24AC4006DAAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E4531E41DE24AC4006DAAAB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +50,7 @@
 		4E4531D61DE24AC3006DAAAB = {
 			isa = PBXGroup;
 			children = (
+				4E4531F61DE27070006DAAAB /* Resources */,
 				4E4531E11DE24AC4006DAAAB /* TimeTravel */,
 				4E4531E01DE24AC4006DAAAB /* Products */,
 			);
@@ -65,6 +76,18 @@
 				4E4531F01DE24AC4006DAAAB /* Info.plist */,
 			);
 			path = TimeTravel;
+			sourceTree = "<group>";
+		};
+		4E4531F61DE27070006DAAAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E1B8FC51DE27362008F1AFE /* OFL.txt */,
+				4E1B8FC61DE27362008F1AFE /* PT_Sans-Web-Bold.ttf */,
+				4E1B8FC71DE27362008F1AFE /* PT_Sans-Web-BoldItalic.ttf */,
+				4E1B8FC81DE27362008F1AFE /* PT_Sans-Web-Italic.ttf */,
+				4E1B8FC91DE27362008F1AFE /* PT_Sans-Web-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +150,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1B8FCB1DE27362008F1AFE /* PT_Sans-Web-Bold.ttf in Resources */,
 				4E4531EF1DE24AC4006DAAAB /* LaunchScreen.storyboard in Resources */,
+				4E1B8FCD1DE27362008F1AFE /* PT_Sans-Web-Italic.ttf in Resources */,
 				4E4531EC1DE24AC4006DAAAB /* Assets.xcassets in Resources */,
+				4E1B8FCA1DE27362008F1AFE /* OFL.txt in Resources */,
+				4E1B8FCE1DE27362008F1AFE /* PT_Sans-Web-Regular.ttf in Resources */,
 				4E4531EA1DE24AC4006DAAAB /* Main.storyboard in Resources */,
+				4E1B8FCC1DE27362008F1AFE /* PT_Sans-Web-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +332,7 @@
 				4E4531F51DE24AC4006DAAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

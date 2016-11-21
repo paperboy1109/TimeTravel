@@ -8,6 +8,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="PT_Sans-Web-Bold.ttf">
+            <string>PTSans-Bold</string>
+        </array>
+        <array key="PT_Sans-Web-BoldItalic.ttf">
+            <string>PTSans-BoldItalic</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Time Now-->
         <scene sceneID="hNz-n2-bh7">
@@ -28,7 +36,7 @@
                                     <constraint firstAttribute="height" constant="44" id="e37-Af-r40"/>
                                     <constraint firstAttribute="width" constant="44" id="ulM-ui-9GF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -39,7 +47,7 @@
                                     <constraint firstAttribute="width" constant="44" id="Sgg-a9-BHf"/>
                                     <constraint firstAttribute="height" constant="44" id="mLj-Fz-oNJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -50,7 +58,7 @@
                                     <constraint firstAttribute="height" constant="44" id="Pna-ag-l04"/>
                                     <constraint firstAttribute="width" constant="44" id="toX-jD-ggk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -61,16 +69,16 @@
                                     <constraint firstAttribute="height" constant="44" id="fgn-xO-xIY"/>
                                     <constraint firstAttribute="width" constant="44" id="zLX-Dt-Uar"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYb-sX-59M">
-                                <rect key="frame" x="112" y="395.5" width="150" height="29"/>
+                                <rect key="frame" x="112" y="395.5" width="150" height="31.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="llt-pb-06F"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="PTSans-BoldItalic" family="PT Sans" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

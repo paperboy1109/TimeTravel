@@ -9,6 +9,12 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    // MARK: - Properties
+    
+    var timer = Timer()
+    
+    // MARK: - Outlets
 
     @IBOutlet var label1: UILabel!    
     @IBOutlet var label2: UILabel!
@@ -25,11 +31,17 @@ class FirstViewController: UIViewController {
         label2.text = Utilities().getLetter(fromString: year, location: 1)
         label3.text = Utilities().getLetter(fromString: year, location: 2)
         label4.text = Utilities().getLetter(fromString: year, location: 3)
+        
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(FirstViewController.tick), userInfo: nil, repeats: true)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func tick() {
+        timeLabel.text = Utilities().getCurrentTime()
     }
 
 

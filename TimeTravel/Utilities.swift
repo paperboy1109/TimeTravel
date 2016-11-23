@@ -28,4 +28,17 @@ class Utilities {
         
     }
     
+    func getCurrentTime() -> String {
+        
+        let date = Date()
+        
+        let formatter = DateFormatter()
+        formatter.dateStyle = .none
+        formatter.timeStyle = .medium
+        
+        let timeString = formatter.string(from: date)
+        
+        return timeString
+    }
+    
 }

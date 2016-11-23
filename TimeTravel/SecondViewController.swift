@@ -40,6 +40,29 @@ class SecondViewController: UIViewController {
         label3.text = utilities.getLetter(fromString: year, location: 2)
         label4.text = utilities.getLetter(fromString: year, location: 3)
         
+        animateItem(duration: 0.5, delay: 0.0, object: label1)
+        animateItem(duration: 0.5, delay: 0.2, object: label2)
+        animateItem(duration: 0.5, delay: 0.4, object: label3)
+        animateItem(duration: 0.5, delay: 0.6, object: label4)
+
+        
+    }
+    
+    // MARK: - Helpers
+    
+    func animateItem(duration: Double, delay: Double, object: UIView) {
+        
+        /* Create an animation */
+        UIView.animate(withDuration: duration, delay: delay, options: .curveEaseOut, animations: {
+            
+            object.center.x += self.view.bounds.width
+            
+        }) { (true) in
+            
+            
+            
+        }
+        
     }
     
 }

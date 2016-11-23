@@ -25,12 +25,14 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let year = Utilities().getCurrentYear()
+        let utilities = Utilities()
         
-        label1.text = Utilities().getLetter(fromString: year, location: 0)
-        label2.text = Utilities().getLetter(fromString: year, location: 1)
-        label3.text = Utilities().getLetter(fromString: year, location: 2)
-        label4.text = Utilities().getLetter(fromString: year, location: 3)
+        let year = utilities.getCurrentYear()
+        
+        label1.text = utilities.getLetter(fromString: year, location: 0)
+        label2.text = utilities.getLetter(fromString: year, location: 1)
+        label3.text = utilities.getLetter(fromString: year, location: 2)
+        label4.text = utilities.getLetter(fromString: year, location: 3)
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(FirstViewController.tick), userInfo: nil, repeats: true)
     }

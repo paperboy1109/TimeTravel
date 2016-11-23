@@ -29,50 +29,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI8-wI-1Ii">
-                                <rect key="frame" x="85.5" y="311.5" width="44" height="44"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="e37-Af-r40"/>
-                                    <constraint firstAttribute="width" constant="44" id="ulM-ui-9GF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iem-xw-sbu">
-                                <rect key="frame" x="137" y="311" width="44" height="44"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="44" id="Sgg-a9-BHf"/>
-                                    <constraint firstAttribute="height" constant="44" id="mLj-Fz-oNJ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOQ-yZ-5Jh">
-                                <rect key="frame" x="189" y="311" width="44" height="44"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Pna-ag-l04"/>
-                                    <constraint firstAttribute="width" constant="44" id="toX-jD-ggk"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c93-UP-aqW">
-                                <rect key="frame" x="241" y="311" width="44" height="44"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="fgn-xO-xIY"/>
-                                    <constraint firstAttribute="width" constant="44" id="zLX-Dt-Uar"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYb-sX-59M">
                                 <rect key="frame" x="112" y="395.5" width="150" height="31.5"/>
                                 <constraints>
@@ -82,33 +38,125 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-61-aTv" customClass="CustomView" customModule="TimeTravel" customModuleProvider="target">
+                                <rect key="frame" x="85.5" y="311.5" width="44" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI8-wI-1Ii">
+                                        <rect key="frame" x="7.5" y="7" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="e37-Af-r40"/>
+                                            <constraint firstAttribute="width" constant="30" id="ulM-ui-9GF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
+                                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="E0W-Eb-U9R"/>
+                                    <constraint firstItem="TI8-wI-1Ii" firstAttribute="centerY" secondItem="6tz-61-aTv" secondAttribute="centerY" id="R6H-58-Cnx"/>
+                                    <constraint firstItem="TI8-wI-1Ii" firstAttribute="centerX" secondItem="6tz-61-aTv" secondAttribute="centerX" id="nvM-eG-yfF"/>
+                                    <constraint firstAttribute="height" constant="44" id="xYV-Wy-ekv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3oA-fI-C2g" customClass="CustomView" customModule="TimeTravel" customModuleProvider="target">
+                                <rect key="frame" x="137.5" y="311.5" width="44" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hk3-c7-inc">
+                                        <rect key="frame" x="7" y="7" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="jC6-fy-PVV"/>
+                                            <constraint firstAttribute="width" constant="30" id="q4X-V1-6IF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
+                                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="hk3-c7-inc" firstAttribute="centerY" secondItem="3oA-fI-C2g" secondAttribute="centerY" id="AN6-3B-AmS"/>
+                                    <constraint firstItem="hk3-c7-inc" firstAttribute="centerX" secondItem="3oA-fI-C2g" secondAttribute="centerX" id="Epb-4Y-FcN"/>
+                                    <constraint firstAttribute="height" constant="44" id="Qef-Q4-m1V"/>
+                                    <constraint firstAttribute="width" constant="44" id="twc-bZ-Al1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wzv-R0-mZ2" customClass="CustomView" customModule="TimeTravel" customModuleProvider="target">
+                                <rect key="frame" x="189.5" y="311.5" width="44" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHf-bD-CUG">
+                                        <rect key="frame" x="6.5" y="7" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="9JY-uO-lLk"/>
+                                            <constraint firstAttribute="width" constant="30" id="Yd5-5a-v0b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
+                                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="FHf-bD-CUG" firstAttribute="centerY" secondItem="wzv-R0-mZ2" secondAttribute="centerY" id="8rB-Up-Bxt"/>
+                                    <constraint firstAttribute="height" constant="44" id="Q1x-HF-9AX"/>
+                                    <constraint firstAttribute="width" constant="44" id="dHT-XC-7cj"/>
+                                    <constraint firstItem="FHf-bD-CUG" firstAttribute="centerX" secondItem="wzv-R0-mZ2" secondAttribute="centerX" id="tj3-GV-To2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KCo-GO-KLn" customClass="CustomView" customModule="TimeTravel" customModuleProvider="target">
+                                <rect key="frame" x="238.5" y="311.5" width="44" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shQ-jE-ONN">
+                                        <rect key="frame" x="6.5" y="7" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="cyo-3I-IhE"/>
+                                            <constraint firstAttribute="width" constant="30" id="eWl-Tl-1kc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="23"/>
+                                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="815-NM-CKz"/>
+                                    <constraint firstItem="shQ-jE-ONN" firstAttribute="centerY" secondItem="KCo-GO-KLn" secondAttribute="centerY" id="bWY-4s-lWF"/>
+                                    <constraint firstItem="shQ-jE-ONN" firstAttribute="centerX" secondItem="KCo-GO-KLn" secondAttribute="centerX" id="uaH-WQ-KT7"/>
+                                    <constraint firstAttribute="width" constant="44" id="xCf-M7-mgn"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.6529432296916059" green="0.97680455446243286" blue="0.68393018696065788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iem-xw-sbu" firstAttribute="leading" secondItem="TI8-wI-1Ii" secondAttribute="trailing" constant="7.5" id="5Mc-wh-2eC"/>
-                            <constraint firstItem="WOQ-yZ-5Jh" firstAttribute="leading" secondItem="iem-xw-sbu" secondAttribute="trailing" constant="8" id="CQt-e3-N7z"/>
-                            <constraint firstItem="c93-UP-aqW" firstAttribute="top" secondItem="TI8-wI-1Ii" secondAttribute="top" id="KXe-Le-OTB"/>
-                            <constraint firstItem="TI8-wI-1Ii" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="SdA-zW-aoC"/>
-                            <constraint firstItem="c93-UP-aqW" firstAttribute="leading" secondItem="WOQ-yZ-5Jh" secondAttribute="trailing" constant="8" id="T2b-7P-ov4"/>
-                            <constraint firstItem="TI8-wI-1Ii" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-80" id="Tte-fo-XE2"/>
+                            <constraint firstItem="6tz-61-aTv" firstAttribute="top" secondItem="3oA-fI-C2g" secondAttribute="top" id="4uv-yo-8hu"/>
+                            <constraint firstItem="3oA-fI-C2g" firstAttribute="top" secondItem="wzv-R0-mZ2" secondAttribute="top" id="4wH-bz-fZY"/>
+                            <constraint firstItem="IYb-sX-59M" firstAttribute="top" secondItem="6tz-61-aTv" secondAttribute="bottom" constant="40" id="8Ta-fj-mjF"/>
+                            <constraint firstItem="3oA-fI-C2g" firstAttribute="leading" secondItem="6tz-61-aTv" secondAttribute="trailing" constant="8" id="COx-JH-zPO"/>
+                            <constraint firstItem="6tz-61-aTv" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="I7T-a0-w2Q"/>
+                            <constraint firstItem="wzv-R0-mZ2" firstAttribute="top" secondItem="KCo-GO-KLn" secondAttribute="top" id="Qwz-A7-yEr"/>
+                            <constraint firstItem="6tz-61-aTv" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-80" id="TwR-X8-veX"/>
                             <constraint firstItem="IYb-sX-59M" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="WqK-sw-nCS"/>
-                            <constraint firstItem="WOQ-yZ-5Jh" firstAttribute="top" secondItem="TI8-wI-1Ii" secondAttribute="top" id="XdN-1f-7gR"/>
-                            <constraint firstItem="iem-xw-sbu" firstAttribute="top" secondItem="TI8-wI-1Ii" secondAttribute="top" id="Zmi-JQ-V1W"/>
-                            <constraint firstItem="IYb-sX-59M" firstAttribute="top" secondItem="TI8-wI-1Ii" secondAttribute="bottom" constant="40" id="o10-Lr-3Ru"/>
+                            <constraint firstItem="KCo-GO-KLn" firstAttribute="leading" secondItem="wzv-R0-mZ2" secondAttribute="trailing" constant="5" id="hDK-fv-lHV"/>
+                            <constraint firstItem="wzv-R0-mZ2" firstAttribute="leading" secondItem="3oA-fI-C2g" secondAttribute="trailing" constant="8" id="qHD-jp-Opy"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Time Now" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="label1" destination="TI8-wI-1Ii" id="7Lv-hq-ALA"/>
-                        <outlet property="label2" destination="iem-xw-sbu" id="ukx-m0-x5r"/>
-                        <outlet property="label3" destination="WOQ-yZ-5Jh" id="gUR-Z4-mWJ"/>
-                        <outlet property="label4" destination="c93-UP-aqW" id="c3X-bX-umq"/>
+                        <outlet property="label2" destination="hk3-c7-inc" id="Rsl-Ca-gBN"/>
+                        <outlet property="label3" destination="FHf-bD-CUG" id="2FR-6y-dOf"/>
+                        <outlet property="label4" destination="shQ-jE-ONN" id="s7O-qV-9Ry"/>
                         <outlet property="timeLabel" destination="IYb-sX-59M" id="Hky-6A-ErX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
         <!--Time Travel-->
         <scene sceneID="wg7-f3-ORb">

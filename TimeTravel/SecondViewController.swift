@@ -17,9 +17,18 @@ class SecondViewController: UIViewController {
     @IBOutlet var label3: UILabel!
     @IBOutlet var label4: UILabel!
     
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        label1.text = "0"
+        label2.text = "0"
+        label3.text = "0"
+        label4.text = "0"
     }
 
     override func didReceiveMemoryWarning() {

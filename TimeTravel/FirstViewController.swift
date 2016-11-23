@@ -18,10 +18,11 @@ class FirstViewController: UIViewController {
     
     // MARK: - Outlets
 
-    @IBOutlet var label1: UILabel!    
+    @IBOutlet var label1: UILabel!                
     @IBOutlet var label2: UILabel!
     @IBOutlet var label3: UILabel!
     @IBOutlet var label4: UILabel!
+    
     @IBOutlet var timeLabel: UILabel!
     
     // MARK: - Lifecycle
@@ -30,11 +31,10 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         tick()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
         
         let year = utilities.getCurrentYear()
+        
+        guard year.characters.count >= 4 else { return }
         
         label1.text = utilities.getLetter(fromString: year, location: 0)
         label2.text = utilities.getLetter(fromString: year, location: 1)

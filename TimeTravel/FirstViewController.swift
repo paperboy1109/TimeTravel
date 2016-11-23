@@ -12,6 +12,8 @@ class FirstViewController: UIViewController {
     
     // MARK: - Properties
     
+    let utilities = Utilities()
+    
     var timer = Timer()
     
     // MARK: - Outlets
@@ -22,10 +24,15 @@ class FirstViewController: UIViewController {
     @IBOutlet var label4: UILabel!
     @IBOutlet var timeLabel: UILabel!
     
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let utilities = Utilities()
+        tick()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         
         let year = utilities.getCurrentYear()
         
@@ -44,6 +51,15 @@ class FirstViewController: UIViewController {
     
     func tick() {
         timeLabel.text = Utilities().getCurrentTime()
+        
+        UIView.animate(withDuration: 1.0, delay: 0, options: .curveEaseOut, animations: {
+            
+            self.view.alpha = 0.5
+        
+        }) { (true) in
+            
+            self.view.alpha = 1.0
+        }
     }
 
 

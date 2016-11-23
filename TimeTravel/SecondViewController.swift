@@ -30,6 +30,16 @@ class SecondViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func buttonTapped(_ sender: Any) {
+        
+        let utilities = Utilities()
+        
+        let year = utilities.getRandomYear()
+        
+        label1.text = utilities.getLetter(fromString: year, location: 0)
+        label2.text = utilities.getLetter(fromString: year, location: 1)
+        label3.text = utilities.getLetter(fromString: year, location: 2)
+        label4.text = utilities.getLetter(fromString: year, location: 3)
+        
     }
     
 }

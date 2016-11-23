@@ -20,6 +20,10 @@ class Utilities {
         
     }
     
+    func getRandomYear() -> String {
+        return String(arc4random_uniform(8999) + 1000)
+    }
+    
     func getLetter(fromString: String, location: Int) -> String {
         
         let index = fromString.index(fromString.startIndex, offsetBy: location)

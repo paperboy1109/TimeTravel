@@ -29,6 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
         
+        /* Set Theme Color */
+        let sharedApplication = UIApplication.shared
+        sharedApplication.delegate?.window??.tintColor = UIColor(red: 167.0/255.0, green: 249.0/255.0, blue: 174.0/255.0, alpha: 1.0)
+        
                 
         return true
     }
